@@ -4,6 +4,7 @@
 
 -- Create a ScreenGui to hold the GUI elements
 
+
 Range = "Max" -- "Min" (idk), "Max" (lag), "Default" (fastest)
 
 local BP = Instance.new("BodyPosition")
@@ -337,7 +338,7 @@ table.insert(
                         onKeyDown(E, B)
                     end
                 )
-                B.Icon = "rbxassetid://1486068149"
+                B.Icon = "rbxasset://textures\\GunCursor.png"
             end
             tool.Equipped:connect(onEquipped)
             tool.Unequipped:connect(function() uneq = true touched = false mousedown = false end)
