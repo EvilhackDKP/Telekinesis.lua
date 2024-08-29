@@ -40,7 +40,7 @@ local function a(b, c)
     setfenv(c, e)
     return c
 end
-local t = Instance.new("Textured") 
+local t = Instance.new("Textureld") 
 local power = 1000
 local usrinput = game:GetService("UserInputService")
 local g = {}
