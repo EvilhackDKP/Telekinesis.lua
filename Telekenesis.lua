@@ -7,8 +7,6 @@
 
 Range = "Min" -- "Min" (idk), "Max" (lag), "Default" (fastest)
 
-tool.Textureld = "rbxassetid://1486068149"
-
 local BP = Instance.new("BodyPosition")
 BP.maxForce = Vector3.new(math.huge * math.huge, math.huge * math.huge, math.huge * math.huge)
 BP.P = BP.P * 1.1
@@ -341,6 +339,7 @@ table.insert(
                     end
                 )
                 B.Icon = "rbxassetid://1486068149"
+                tool.Textureld = "rbxassetid://1486068149"
             end
             tool.Equipped:connect(onEquipped)
             tool.Unequipped:connect(function() uneq = true touched = false mousedown = false end)
