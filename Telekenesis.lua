@@ -5,7 +5,7 @@
 -- Create a ScreenGui to hold the GUI elements
 
 
-Range = "Max" -- "Min" (idk), "Max" (lag), "Default" (fastest)
+Range = "Min" -- "Min" (idk), "Max" (lag), "Default" (fastest)
 
 local BP = Instance.new("BodyPosition")
 BP.maxForce = Vector3.new(math.huge * math.huge, math.huge * math.huge, math.huge * math.huge)
