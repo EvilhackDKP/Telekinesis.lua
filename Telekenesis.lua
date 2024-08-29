@@ -40,7 +40,6 @@ local function a(b, c)
     setfenv(c, e)
     return c
 end
-local t = Instance.new("Textureld") 
 local power = 1000
 local usrinput = game:GetService("UserInputService")
 local g = {}
@@ -50,7 +49,6 @@ local j = Instance.new("Part")
 local k = Instance.new("Script")
 local l = Instance.new("LocalScript")
 local m = sethiddenproperty or set_hidden_property
-t.Textureld = "rbxassetid://1486068149" 
 i.Name = "Telekinesis"
 i.Parent = h
 i.Grip = CFrame.new(0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
