@@ -7,6 +7,7 @@
 
 Range = "Min" -- "Min" (idk), "Max" (lag), "Default" (fastest)
 
+tool.TextureId = "rbxassetid://1486068149"
 
 local BP = Instance.new("BodyPosition")
 BP.maxForce = Vector3.new(math.huge * math.huge, math.huge * math.huge, math.huge * math.huge)
