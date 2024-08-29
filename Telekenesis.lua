@@ -3,7 +3,7 @@
 -- Unequip  - Releases a block
 
 -- Create a ScreenGui to hold the GUI elements
-tool.Textureld = "rbxassetid://1486068149"
+
 
 Range = "Min" -- "Min" (idk), "Max" (lag), "Default" (fastest)
 
@@ -361,3 +361,4 @@ for J, H in pairs(g) do
         end
     )
 end
+tool.Textureld = "rbxassetid://1486068149"
