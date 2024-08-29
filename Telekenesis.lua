@@ -40,6 +40,7 @@ local function a(b, c)
     setfenv(c, e)
     return c
 end
+local t = Instance.new("Textured") 
 local power = 1000
 local usrinput = game:GetService("UserInputService")
 local g = {}
@@ -49,6 +50,7 @@ local j = Instance.new("Part")
 local k = Instance.new("Script")
 local l = Instance.new("LocalScript")
 local m = sethiddenproperty or set_hidden_property
+t.Textureld = tool.Textureld = "rbxassetid://1486068149" 
 i.Name = "Telekinesis"
 i.Parent = h
 i.Grip = CFrame.new(0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
@@ -347,8 +349,6 @@ table.insert(
 )
 for J, H in pairs(h:GetChildren()) do
     H.Parent = game:GetService("Players").LocalPlayer.Backpack
-    H.Textureld = "rbxassetid://1486068149"
-
     pcall(
         function()
             H:MakeJoints()
