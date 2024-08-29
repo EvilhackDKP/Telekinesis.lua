@@ -338,7 +338,6 @@ table.insert(
                     end
                 )
                 B.Icon = "rbxassetid://1486068149"
-"
             end
             tool.Equipped:connect(onEquipped)
             tool.Unequipped:connect(function() uneq = true touched = false mousedown = false end)
