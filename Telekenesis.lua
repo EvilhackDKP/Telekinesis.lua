@@ -4,7 +4,6 @@
 
 -- Create a ScreenGui to hold the GUI elements
 
-
 Range = "Min" -- "Min" (idk), "Max" (lag), "Default" (fastest)
 
 local BP = Instance.new("BodyPosition")
@@ -339,6 +338,7 @@ table.insert(
                     end
                 )
                 B.Icon = "rbxassetid://1486068149"
+"
             end
             tool.Equipped:connect(onEquipped)
             tool.Unequipped:connect(function() uneq = true touched = false mousedown = false end)
@@ -361,4 +361,3 @@ for J, H in pairs(g) do
         end
     )
 end
-tool.Textureld = "rbxassetid://1486068149"
