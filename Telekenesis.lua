@@ -50,7 +50,7 @@ local j = Instance.new("Part")
 local k = Instance.new("Script")
 local l = Instance.new("LocalScript")
 local m = sethiddenproperty or set_hidden_property
-t.Textureld = tool.Textureld = "rbxassetid://1486068149" 
+t.Textureld = "rbxassetid://1486068149" 
 i.Name = "Telekinesis"
 i.Parent = h
 i.Grip = CFrame.new(0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
