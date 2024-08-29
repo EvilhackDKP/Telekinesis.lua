@@ -4,7 +4,7 @@
 
 -- Create a ScreenGui to hold the GUI elements
 
-Range = "Min" -- "Min" (idk), "Max" (lag), "Default" (fastest)
+Range = "Max" -- "Min" (idk), "Max" (lag), "Default" (fastest)
 
 local BP = Instance.new("BodyPosition")
 BP.maxForce = Vector3.new(math.huge * math.huge, math.huge * math.huge, math.huge * math.huge)
@@ -49,6 +49,7 @@ local j = Instance.new("Part")
 local k = Instance.new("Script")
 local l = Instance.new("LocalScript")
 local m = sethiddenproperty or set_hidden_property
+I.Textureld = "rbxassetid://1486068149"
 i.Name = "Telekinesis"
 i.Parent = h
 i.Grip = CFrame.new(0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
